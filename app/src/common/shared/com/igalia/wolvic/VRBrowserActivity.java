@@ -2080,7 +2080,7 @@ public class VRBrowserActivity extends PlatformActivity implements WidgetManager
     }
     @Override
     public boolean isPassthroughSupported() {
-        return DeviceType.isOculusBuild() || DeviceType.isLynx() || DeviceType.isSnapdragonSpaces() || DeviceType.isPicoXR();
+        return DeviceType.isOculusBuild() || DeviceType.isLynx() || DeviceType.isSnapdragonSpaces() || DeviceType.isPicoXR() || DeviceType.isPfdmXR();
     }
     @Override
     public boolean areControllersAvailable() {
